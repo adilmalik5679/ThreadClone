@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+  <style>
+    body{
+        background: linear-gradient(255deg, #22d22d 0%, #44f9 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+    }
+    .form_div{
+        width: 400px;
+        height: 380px;
+        background-color:#341f97;
+        margin: 90px;
+        border-radius: 20px;
+        border: 3px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+       }
+       form h2{
+        font-family: adil-font;
+        font-size: 35px;
+        color: #fff;
+       }
+       label{
+        margin-top: 10px;
+        font-size: 20px;
+        color: #fff; 
+        font-family: adil-font;
+
+      }
+      input{
+        margin-top: 3px;
+        width: 200px;
+        height: 30px;
+        border-radius:10px ;
+        border: 1px solid #fff;
+        font-size: 15px;
+      }
+      a{
+        color: #fff;
+        font-size: 20px;
+        font-family: adil-font;
+
+      }
+      a:hover{
+        color: red;
+      }
+      p{
+        font-size: 18px;
+        font-weight: 800;
+      }
+      button{
+        margin-top: 20px;
+        width: 100px;
+        font-family: adil-font;
+        height: 30px;
+        color: black;
+        background-color: #fff;
+        border: 2px solid transparent;
+       font-size: 18px;
+        border-radius: 10px;  
+      }
+      button:hover{
+        background-color: #341f97;
+        color: #fff;
+        border: 2px solid #fff;
+     
+      }
+      @font-face {
+          font-family: adil-font;
+          src: url('./authFonts/Lobster-Regular.ttf');
+        }
+        @font-face {
+          font-family: adil-font2;
+          src: url('./authFonts/PlayfairDisplay-VariableFont_wght.ttf');
+        }
+  
+
+  </style>
+</head>
+<body>
+          
+    <div class="form_div">
+      <form >
+        <h2>Sign Up</h2>       
+        <br>
+        <label for="email">Email</label>
+          <br>
+        <input type="text" name="" id="email">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        
+        <input type="text" name="" id="password">
+        <br>
+        <button class="signup">Sign Up</button>
+      </form>
+      <p>I have an Account <a href="./signin.html">Sign In</a></p>
+    </div>
+   <script type="module" src="signUp.js"></script>
+</body>
+</html>
